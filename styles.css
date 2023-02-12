@@ -1,0 +1,483 @@
+body {
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    backdrop-filter: brightness(0.5);
+}
+
+/**************** HEADER START ****************/
+
+.navbar-top {
+    position: relative;
+    background-color:#57B9A2;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+.time-icon {
+    position: absolute;
+    left: 30px;
+    bottom: 20px; 
+}
+
+.p1 {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+
+.call-icon {
+    position:absolute;
+    bottom: 20px;
+    left: 200px;
+}
+
+.p2 {
+    color: white;
+    position: absolute;
+    display: inline-block;
+    left: 222px;
+    
+}
+
+.bn632-hover {
+    right: 30px;
+    top: 7px;
+    position: absolute;
+    width: 110px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn28 {
+    background-image: linear-gradient(
+      to right,
+      #eb3941,
+      #f15e64,
+      #e14e53,
+      #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}
+
+.career {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+
+    font-size: 13px;
+    right: 200px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    height: 35px;
+
+}
+
+.career:hover {
+    background-color: #e14e53;
+}
+
+.academics {
+    position: absolute;
+    right: 275px;
+    top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+
+.academics:hover {
+    background-color: #e14e53;
+    background-position: 100% 0;
+}
+
+.blogs {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    font-size: 13px;
+    right: 460px;
+    top: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    height: 35px;
+
+}
+
+.blogs:hover {
+    background-color: #e14e53;
+}
+
+.about {
+    position: absolute;
+    right: 520px;
+    top: 18%;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+
+.about:hover {
+    background-color: #e14e53;
+    background-position: 100% 0;
+}
+
+
+.navbar-bottom {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 60px;
+    background-color: #F5F5F5;
+}
+
+.logo {
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+
+.placeholder {
+    padding-left: 1%;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    width: 12%;
+    height: 50%;
+    right: 2%;
+    top: 20%;
+    border-radius: 50px;
+    border: 1px solid  gray;
+    background-color: transparent;
+}
+
+.search-icon {
+    position: absolute;
+    right: 2.6%;
+    top: 35%;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.international-patients {
+    position: absolute;
+    padding: 10px;
+    height: 18px;
+    right: 18%;
+    top: 15%;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    background-color: ransparent;
+    cursor: pointer;
+    text-align:center;
+    border: none;    
+    border-radius: 50px;
+}
+
+.international-patients:hover {
+    color: white;
+    background-color: #e14e53;
+    background-position: 100% 0;
+}
+
+.services {
+    position: absolute;
+    padding: 10px;
+    height: 18px;
+    right: 28%;
+    top: 15%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.services:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+.find-a-doctor {
+    position: absolute;
+    padding: 10px;
+    height: 18px;
+    right: 35%;
+    top: 15%;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    background-color: ransparent;
+    cursor: pointer;
+    text-align:center;
+    border: none;    
+    border-radius: 50px;
+}
+
+.find-a-doctor:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+.specialities {
+    position: absolute;
+    padding: 10px;
+    height: 18px;
+    right: 43%;
+    top: 15%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.specialities:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+.locations {
+    position: absolute;
+    padding: 10px;
+    height: 18px;
+    right: 51%;
+    top: 15%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.locations:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+/**************** HEADER END & MAIN START ****************/
+
+.dialogue {
+    text-align: center;
+}
+
+.dialogue-heading {
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    color: #F5F5F5;
+    display: inline-block;  
+    line-height: 1.1;
+    padding-top: 50px;
+}
+
+.dialogue-paragraph {
+    color: #F5F5F5;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;;
+}
+
+.appointment-button {
+    text-align: center;
+}
+
+.appointment {
+    padding: 5px 5px;
+    height: 45px;
+    width: 18%;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #eb3941;
+    cursor: pointer;
+    border: none;    
+    border-radius: 50px;
+}
+
+.years {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+hr {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    transform: rotate(90deg);
+    bottom: 42px;
+}
+
+.contacts {
+    position: relative;
+    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 30px;
+    bottom: 70px;
+    left: 50px;
+}
+
+.best-brand {
+    padding: 0px 10px;
+}
+
+.top2-1 {
+    padding: 0px 10px;
+}
+
+.top2-2{
+    padding: 0px 10px;
+}
+
+
+
+.submit-card {
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    top: 140px;
+    left: 15%;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgb(79, 79, 79);
+}
+
+.container {
+    padding: 20px;
+    position: relative;
+}
+
+h4 {
+    display: inline-block;
+    color:#e14e53;
+    font-family: 'Poppins', sans-serif;
+    padding-right:800px;
+}
+
+.view-doc {
+    font-family: 'Poppins', sans-serif;
+    color: #57B9A2;
+}
+
+.select-hospital {
+    width: 20%;
+    padding: 0px 10px;
+    height: px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.select-hospital:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+.select-speciality {
+    width: 20%;
+    padding: 0px 10px;
+    height: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.select-speciality:hover {
+    color: white;
+    background-color: #e14e53;
+}
+
+
+
+.search-button {
+
+    position: relative;
+    left: 13%;
+    width: 10%;
+    padding: 0px 10px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    background-size: 300% 100%;
+    border-radius: 50px;
+}
+
+.glass-icon {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: #F5F5F5;
+}
